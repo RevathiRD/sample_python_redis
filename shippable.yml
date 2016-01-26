@@ -1,7 +1,8 @@
 language: python
 python:
  - "2.7"
-build_image: drydock/u14pytpls:tip
+#build_image: drydock/u14pytpls:tip
+build_image: drydock/u14pytall:tip
 services: 
  - redis 
 install: pip install -r requirements.txt
